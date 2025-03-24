@@ -1,0 +1,33 @@
+{
+    "name": "MMM-NounsProposal",
+    "version": "1.0.0",
+    "description": "A MagicMirror module to display Nouns DAO proposal information",
+    "main": "MMM-NounsProposal.js",
+    "scripts": {
+      "lint": "eslint .",
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/XppaiCyberr/MMM-NounsProposal.git"
+    },
+    "keywords": [
+      "magic mirror",
+      "smart mirror",
+      "nouns",
+      "dao",
+      "proposal",
+      "ethereum",
+      "blockchain"
+    ],
+    "author": "XppaiCyberr",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/XppaiCyberr/MMM-NounsProposal/issues"
+    },
+    "homepage": "https://github.com/XppaiCyberr/MMM-NounsProposal#readme",
+    "dependencies": {
+      "axios": "^1.6.7",
+      "viem": "^2.7.9"
+    }
+  } 

@@ -1,0 +1,171 @@
+.nouns-proposal {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 5px;
+}
+
+.nouns-proposal .module-header {
+    text-align: left;
+    font-size: 0.9em;
+    margin-bottom: 8px;
+    color: #fff;
+    opacity: 0.5;
+}
+
+.proposal-content {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    transition: opacity 2s ease-in-out;
+}
+
+.proposal-container {
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+    padding: 1px;
+    transition: opacity 2s ease-in-out;
+}
+
+.proposal-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 4px;
+    padding: 5px;
+}
+
+.prop-id {
+    color: #46CF89;
+    font-weight: bold;
+    font-size: 0.8em;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 75%; /* Limit width to prevent overflowing */
+}
+
+.status-badge {
+    font-size: 0.7em;
+    padding: 2px 6px;
+    border-radius: 3px;
+    font-weight: 500;
+    text-transform: capitalize;
+    white-space: nowrap;
+}
+
+.status-badge.active {
+    background-color: #46CF89;
+    color: #000;
+}
+
+.status-badge.pending {
+    background-color: #FFB800;
+    color: #000;
+}
+
+.status-badge.executed {
+    background-color: #09f143a6;
+    color: #fff;
+}
+
+.status-badge.defeated {
+    background-color: #F93A3A;
+    color: #fff;
+}
+
+.status-badge.queued {
+    background-color: #4FB3FF;
+    color: #000;
+}
+
+.status-badge.cancelled {
+    background-color: #dd0e0e;
+    color: #fff;
+}
+
+.status-badge.vetoed {
+    background-color: #F93A3A;
+    color: #fff;
+}
+
+.proposal-title {
+    font-size: 0.8em;
+    color: #fff;
+    margin-bottom: 6px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding: 0 5px;
+}
+
+.vote-progress-container {
+    margin-top: 4px;
+    padding: 0 5px 5px 5px;
+}
+
+.vote-summary {
+    font-size: 0.7em;
+    color: #888;
+    margin-bottom: 4px;
+}
+
+.vote-progress-bar {
+    height: 4px;
+    background: transparent;
+    border-radius: 2px;
+    position: relative;
+    display: flex;
+    overflow: hidden;
+}
+
+.vote-segment {
+    height: 100%;
+    transition: width 0.3s ease;
+}
+
+.vote-segment.for {
+    background-color: #46CF89;
+}
+
+.vote-segment.abstain {
+    background-color: #808080;
+}
+
+.vote-segment.against {
+    background-color: #F93A3A;
+}
+
+.quorum-indicator {
+    position: absolute;
+    top: -2px;
+    width: 2px;
+    height: 8px;
+    background-color: rgba(255, 251, 1, 0.986);
+    transform: translateX(-50%);
+}
+
+.error-message {
+    color: #ff4444;
+    text-align: center;
+    padding: 8px;
+    font-size: 0.8em;
+}
+
+.dimmed {
+    color: #888;
+    text-align: center;
+    padding: 8px;
+    font-size: 0.8em;
+}
+
+.pagination {
+    text-align: center;
+    font-size: 0.7em;
+    color: #888;
+    margin-top: 8px;
+    padding: 4px;
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+    transition: opacity 2s ease-in-out;
+} 
